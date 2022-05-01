@@ -11,6 +11,9 @@ class Menu:
             self.__opcion=input('Ingrese numero: ')
             if self.__opcion=='1':
                 objetomanejador.Actualizar()
-                
             if self.__opcion=='2':
                 objetomanejador.ImporteCuota()
+            if self.__opcion=='3':
+                objetomanejador.MostrarMonto()
+            if self.__opcion=='4':
+                objetomanejador.ModificarCuotas()
